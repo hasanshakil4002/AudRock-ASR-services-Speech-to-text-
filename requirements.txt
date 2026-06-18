@@ -1,0 +1,5 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0     # includes httptools + uvloop (Linux/Mac)
+faster-whisper>=1.0.3
+aiofiles>=23.2.1
+python-multipart>=0.0.9       # required for FastAPI file uploads
